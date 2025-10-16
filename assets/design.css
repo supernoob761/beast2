@@ -1032,7 +1032,7 @@ textarea {
    gap: 10px;
   }
   .li_prof ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 35px;
   }
 
@@ -1251,7 +1251,7 @@ textarea {
    gap: 30px;
   }
   .li_prof ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
   }
   
