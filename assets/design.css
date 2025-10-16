@@ -24,6 +24,7 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 80px;
 }
 
 main, section {
@@ -32,8 +33,14 @@ main, section {
 
 /* ============================================== NAV ======================================================= */
 .Navigation {
-  background:linear-gradient(90deg ,#2C3E50 0%,#648DB6 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #2C3E50 0%, #648DB6 100%);
   padding: 10px 0;
+  z-index: 1000; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .Navigation ul {
@@ -48,11 +55,16 @@ main, section {
   width: 180px;
 }
 
-.Navigation ul li a{
+.Navigation ul li a {
   color: var(--white);
   padding: 10px 25px;
   text-decoration: none;
   transition: all 0.3s ease;
+}
+
+
+.Navigation ul li a:hover {
+  color: #4b4b4b;
 }
 
 /* ============================================== FLOOR ====================================================== */
@@ -706,7 +718,7 @@ textarea {
     width: 100%;
     height: auto;
     padding: 15px;
-    font-size: 50px;
+    font-size: 10px;
   }
 
   .info {
@@ -909,14 +921,14 @@ textarea {
     width: 100%;
     height: auto;
     padding: 10px;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .box .Left .contact_way {
     width: 100%;
     height: auto;
     padding: 15px;
-    font-size: 7px;
+    font-size: 15px;
   }
 
   .info {
