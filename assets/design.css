@@ -81,14 +81,14 @@ footer {
 #Full_prof .id_prof {
   width: 90%;   
   max-width: 1000px; 
-  height: auto;
+  height: 500px;
   padding: 40px;
 }
 
 
 #Full_prof .comp_prof {
   padding: 100px 50px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   backdrop-filter: blur(8px);
@@ -181,7 +181,7 @@ footer {
   text-align: center;
   padding: 15px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -199,7 +199,7 @@ footer {
   text-align: center;
   padding: 18px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(38, 38, 38, 0.3);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -209,6 +209,56 @@ footer {
 #About .Bottom p{
   font-size: 1.8rem;
 }
+#About .Skills {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+    color: wheat;
+    
+}
+#About .Skills .headline{
+    border-radius: 25px;
+background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+#About .Skills h2 {
+  
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+#About .Skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#About .Skill span {
+    font-size: 1.6rem;
+}
+
+#About .Progress {
+    width: 100%;
+    height: 25px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+}
+
+#About .Progress-bar {
+    height: 100%;
+    border-radius: 25px;
+background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
+}
+
 
 /* ============================================ PROJECT ==================================================== */
 #Projects {
@@ -225,7 +275,7 @@ footer {
   text-align: center;
   padding: 15px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+ background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -245,21 +295,15 @@ footer {
   gap: 100px;
   padding: 15px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 }
-#Projects .Cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
- 
-  margin: 0 auto;
-}
+
 
 #Projects .card{
   border: 2px solid white;
@@ -276,10 +320,9 @@ footer {
 }
 
 #Projects .card img{
-    width: 100%;
-  height: auto;
-  border-radius: 33px;
-  border-radius: 33px;
+   width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
@@ -392,7 +435,7 @@ footer {
   text-align: center;
   padding: 15px;
   border-radius: 25px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -407,7 +450,7 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 20px;
-  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(224 18 18) 100%);
+ background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   border: 1px solid rgba(255,255,255,0.2);
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -529,7 +572,7 @@ textarea {
   resize: vertical;
 }
 .submit-btn {
-  background: linear-gradient(90deg, #FF0000, #F71EF0);
+  background: linear-gradient(90deg, rgb(212 57 193) 0%, rgb(31, 16, 73) 50%, rgb(224 18 18) 100%);
   color: white;
   border: none;
   border-radius: 12px;
@@ -550,7 +593,237 @@ textarea {
 
 
 /* ======================== MOBILE RESPONSIVE DESIGN ======================== */
-@media (max-width: 768px) {
+@media (max-width: 499px) {
+  body {
+    background: rgb(180, 180, 180);
+    font-size: 14px;
+  }
+
+  /* NAVIGATION */
+  .Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Navigation ul {
+    grid-template-rows: 1fr;
+    gap: 40px;
+  }
+
+
+  .Navigation ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Navigation ul li a {
+    display: block;
+    padding: 12px 0;
+  }
+
+  /* HOME SECTION */
+  #Full_prof {
+        margin-top: 130px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  #Full_prof .comp_prof {
+    padding: 0px 20px;
+    gap: 40px;
+    width: 100%;
+    height: auto;
+  }
+
+  #Full_prof .id_prof {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .id_prof h1 {
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
+  nav {
+   display: flex;
+   gap: 30px;
+  }
+  .li_prof ul {
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 10px;
+  }
+
+  .pic img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ABOUT SECTION */
+  #About {
+    gap: 50px;
+    padding: 20px 10px;
+  }
+
+  #About .Top {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  #About .Top h1 {
+    letter-spacing: 8px;
+    font-size: 1.8rem;
+  }
+
+  #About .Bottom {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #About .Bottom p {
+    font-size: 1rem;
+  }
+
+  #About .Skills {
+        width: 90%;
+    }
+
+    #About .Skills h2 {
+        font-size: 1.8rem;
+    }
+
+    #About .Skill span {
+        font-size: 1.4rem;
+    }
+
+    #About .Progress {
+        height: 20px;
+    }
+
+
+  /* PROJECTS SECTION */
+  #Projects {
+    padding: 20px;
+    gap: 30px;
+  }
+
+  #Projects .headline {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  #Projects .headline h1 {
+    letter-spacing: 10px;
+    font-size: 1.8rem;
+  }
+
+  #Projects .Cards {
+    width: 100%;
+    grid-template-columns:1fr;
+    gap: 30px;
+    padding: 10px;
+  }
+
+  #Projects .card {
+    width: 100%;
+    height: auto;
+  }
+
+  #Projects .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  #Projects .card .link {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  #Projects .card .link a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* CONTACT SECTION */
+  #Contacts {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .contact .headline {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .box {
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .box .Left, 
+  .box .Right {
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .box .Left .headline,
+  .box .Right .headlines {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .box .Left .contact_way {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .info {
+    width: 100%;
+    padding: 20px;
+  }
+
+  form {
+    gap: 15px;
+  }
+
+  input, textarea {
+    padding: 14px;
+    font-size: 14px;
+  }
+
+  textarea {
+    min-height: 180px;
+  }
+
+  .submit-btn {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+@media (min-width:500px) and (max-width: 768px) {
 
   /* GENERAL */
   body {
@@ -561,12 +834,12 @@ textarea {
   /* NAVIGATION */
   .Navigation {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .Navigation ul {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-rows: 1fr;
+    gap: 40px;
   }
 
   .Navigation ul li {
@@ -610,7 +883,8 @@ textarea {
   }
   .li_prof ul {
     flex-direction: column;
-    gap: 15px;
+    gap: 35px;
+    margin-bottom: 10px;
   }
 
   .pic img {
@@ -644,6 +918,21 @@ textarea {
   #About .Bottom p {
     font-size: 1rem;
   }
+#About .Skills {
+        width: 90%;
+    }
+
+    #About .Skills h2 {
+        font-size: 1.8rem;
+    }
+
+    #About .Skill span {
+        font-size: 1.4rem;
+    }
+
+    #About .Progress {
+        height: 20px;
+    }
 
   /* PROJECTS SECTION */
   #Projects {
@@ -664,7 +953,7 @@ textarea {
 
   #Projects .Cards {
     width: 100%;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 10px;
   }
@@ -772,12 +1061,12 @@ textarea {
   /* NAVIGATION */
   .Navigation {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .Navigation ul {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-rows: 1fr;
+    gap: 40px;
   }
 
   .Navigation ul li {
@@ -821,7 +1110,8 @@ textarea {
   }
   .li_prof ul {
     flex-direction: column;
-    gap: 15px;
+    gap: 35px;
+    margin-bottom: 10px;
   }
 
   .pic img {
@@ -855,6 +1145,22 @@ textarea {
   #About .Bottom p {
     font-size: 1rem;
   }
+#About .Skills {
+        width: 90%;
+    }
+
+    #About .Skills h2 {
+        font-size: 1.8rem;
+    }
+
+    #About .Skill span {
+        font-size: 1.4rem;
+    }
+
+    #About .Progress {
+        height: 20px;
+    }
+
 
   /* PROJECTS SECTION */
   #Projects {
@@ -875,7 +1181,7 @@ textarea {
 
   #Projects .Cards {
     width: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     padding: 10px;
   }
@@ -999,7 +1305,7 @@ textarea {
   .Navigation ul li a {
     display: block;
     padding: 12px 0;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   /* HOME SECTION */
@@ -1068,6 +1374,21 @@ textarea {
   #About .Bottom p {
     font-size: 1.7rem;
   }
+#About .Skills {
+        width: 90%;
+    }
+
+    #About .Skills h2 {
+        font-size: 1.8rem;
+    }
+
+    #About .Skill span {
+        font-size: 1.4rem;
+    }
+
+    #About .Progress {
+        height: 20px;
+    }
 
   /* PROJECTS SECTION */
   #Projects {
@@ -1088,7 +1409,7 @@ textarea {
 
   #Projects .Cards {
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     padding: 10px;
   }
@@ -1211,7 +1532,7 @@ textarea {
   .Navigation ul li a {
     display: block;
     padding: 12px 0;
-    font-size: 25px;
+    font-size: 16px;
   }
 
   /* HOME SECTION */
@@ -1224,12 +1545,12 @@ textarea {
   #Full_prof .comp_prof {
     padding: 15px 20px;
     gap: 40px;
-    width: 100%;
+    width: 1400px;
   }
 
   #Full_prof .id_prof {
-    width: 100%;
-    height: 100;
+    width: 1400px;
+    height: auto;
     padding: 30px;
     gap: 30px;
   }
@@ -1286,6 +1607,22 @@ textarea {
   #About .Bottom p {
     font-size: 1.7rem;
   }
+#About .Skills {
+        width: 90%;
+    }
+
+    #About .Skills h2 {
+        font-size: 1.8rem;
+    }
+
+    #About .Skill span {
+        font-size: 1.4rem;
+    }
+
+    #About .Progress {
+        height: 20px;
+    }
+
 
   /* PROJECTS SECTION */
   #Projects {
@@ -1305,8 +1642,8 @@ textarea {
   }
 
   #Projects .Cards {
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 50px;
     padding: 10px;
   }
